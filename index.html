@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Strasser Asset Management</title>
+  <meta name="description" content="Strasser Asset Management. A private investment company." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <style>
+    :root {
+      --navy: #0b1f3a;
+      --cream: #f4efe6;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      background: var(--cream);
+      color: var(--navy);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 12vh 24px 8vh;
+      text-align: center;
+    }
+    .mark {
+      width: min(560px, 86vw);
+      height: auto;
+      display: block;
+    }
+    p.line {
+      margin-top: 8px;
+      font-size: 13px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      font-weight: 400;
+      color: var(--navy);
+      opacity: 0.85;
+    }
+    a.mail {
+      margin-top: 36px;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      color: var(--navy);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(11, 31, 58, 0.25);
+      padding-bottom: 2px;
+    }
+    a.mail:hover { border-bottom-color: var(--navy); }
+    footer {
+      padding: 24px;
+      text-align: center;
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      opacity: 0.55;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="mark" src="logo.png" width="1024" height="1024" alt="Strasser Asset Management" />
+    <p class="line">A private investment company</p>
+    <a class="mail" href="mailto:hello@strasseram.ca">hello@strasseram.ca</a>
+  </main>
+  <footer>© 2026 Strasser Asset Management · Toronto</footer>
+</body>
+</html>
